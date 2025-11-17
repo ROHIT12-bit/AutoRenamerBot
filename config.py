@@ -17,10 +17,10 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/bMFcCB6B/59kLh.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '8367080346').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1003322423783") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "public_miracle_bots") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003448988619"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "https://i.ibb.co/bMFcCB6B/59kLh.jpg")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Miracle_renamer_bot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Miracle_renamer_bot")
 
     # webhook config     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
@@ -28,9 +28,9 @@ class Config(object):
 
 class Txt(object):
 
-    START_TXT = """<blockquote><b>ʜᴇʏ! {}  </blockquote>
+    START_TXT = """<blockquote>ʜᴇʏ! {}</blockquote>
 
-<blockquote>» ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ʀᴇɴᴀᴍᴇ ʙᴏᴛ! ᴡʜɪᴄʜ ᴄᴀɴ ᴀᴜᴛᴏʀᴇɴᴀᴍᴇ ʏᴏᴜʀ ғɪʟᴇs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ᴀɴᴅ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴀʟsᴏ sᴇǫᴜᴇɴᴄᴇ ᴛʜᴇᴍ ᴘᴇʀғᴇᴄᴛʟʏ</b></blockquote>
+<blockquote>» ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ʀᴇɴᴀᴍᴇ ʙᴏᴛ! ᴡʜɪᴄʜ ᴄᴀɴ ᴀᴜᴛᴏʀᴇɴᴀᴍᴇ ʏᴏᴜʀ ғɪʟᴇs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ᴀɴᴅ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴀʟsᴏ sᴇǫᴜᴇɴᴄᴇ ᴛʜᴇᴍ ᴘᴇʀғᴇᴄᴛʟʏ</blockquote>
 <blockquote>✦ <a href="https://t.me/+yW6gjTvSLyU0YWY1">𝙈𝙞𝙧𝙖𝙘𝙡𝙚 𝙗𝙤𝙩𝙨</a></blockquote>"""
     
     FILE_NAME_TXT = """<b>» <u>sᴇᴛᴜᴘ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ @BOTSKINGDOMS</u></b>
@@ -80,13 +80,15 @@ class Txt(object):
 <b>⏰️ ETA</b> : {4} """
     
     
-    DONATE_TXT = """<blockquote> ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ!!</blockquote>
+    DONATE_TXT = """<blockquote> ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ!!
 
-<b><i>💞  ʙᴜᴛ ᴡᴇ ᴅᴏɴ'ᴛ ᴀᴄᴄᴇᴘᴛ ᴍᴏɴᴇʏ!! 
+💞  ʙᴜᴛ ᴡᴇ ᴅᴏɴ'ᴛ ᴀᴄᴄᴇᴘᴛ ᴍᴏɴᴇʏ!! 
 
-ᴊᴜsᴛ sʜᴏᴡ ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ ᴛᴏ @BOTSKINGDOMS !! 
+ᴊᴜsᴛ sʜᴏᴡ ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ ᴛᴏ @funnykingabout !! 
 
-ᴛʜᴀᴛs ᴇɴᴏᴜɢʜᴇ!! ʟᴏᴠᴇ ғᴏʀᴍ @ROHITREDDY69"""
+ᴛʜᴀᴛs ᴇɴᴏᴜɢʜᴇ!! ʟᴏᴠᴇ ғᴏʀᴍ @ROHITREDDY69
+Owner : @Funnytamilan 
+Developer : @ROHITREDDY69</blockquote>"""
 
     
     HELP_TXT = """<b>ʜᴇʀᴇ ɪꜱ ʜᴇʟᴘ ᴍᴇɴᴜ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴄᴏᴍᴍᴀɴᴅꜱ:
