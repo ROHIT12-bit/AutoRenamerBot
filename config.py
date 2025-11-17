@@ -17,7 +17,7 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/bMFcCB6B/59kLh.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '8367080346').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "https://i.ibb.co/bMFcCB6B/59kLh.jpg") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1003322423783") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003448988619"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "https://i.ibb.co/bMFcCB6B/59kLh.jpg")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Miracle_renamer_bot")
